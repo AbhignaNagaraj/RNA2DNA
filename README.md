@@ -10,10 +10,11 @@ Place the 3D structure file of the ssRNA in PDB format in the same directory as 
 
 3. Run the Tool:
 Use the following command in your terminal or command prompt:
-python RNA2DNA.py file.pdb
-Replace file.pdb with the name of your ssRNA PDB file.
 
-4. Outputs:
+python RNA2DNA.py file.pdb
+(Replace file.pdb with the name of your ssRNA PDB file)
+
+5. Outputs:
 The tool generates the following output files in the same directory:
 
 pre-DNA1.pdb: Intermediate ssDNA structure file.
