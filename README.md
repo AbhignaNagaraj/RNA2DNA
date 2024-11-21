@@ -2,21 +2,18 @@ RNA2DNA is a Python-based tool designed to convert the three-dimensional structu
 
 How to Use RNA2DNA
 Steps:
-Download the Tool
+1.Download the Tool
 Download the RNA2DNA.py script to your working directory.
 
-Prepare Your Input File
+2. Prepare Your Input File
 Place the 3D structure file of the ssRNA in PDB format in the same directory as RNA2DNA.py.
 
-Run the Tool
+3. Run the Tool
 Use the following command in your terminal or command prompt:
-
-bash
-Copy code
 python RNA2DNA.py file.pdb
 Replace file.pdb with the name of your ssRNA PDB file.
 
-Outputs
+4. Outputs
 The tool generates the following output files in the same directory:
 
 pre-DNA1.pdb: Intermediate ssDNA structure file.
