@@ -1,8 +1,19 @@
-
 from sys import *
 from os import system, chdir, getcwd
+import argparse
 
-fichier = open( "RNA.pdb" , "r" )
+
+
+parser = argparse.ArgumentParser()
+parser.add_argument("file_input", help="Input file path\n",type=str)
+#parser.add_argument("output", help="Output path", type=str)
+args = parser.parse_args()
+file_input= args.file_input
+#output =args.output
+#print(output)
+
+
+fichier = open(file_input , "r" )
 atomes = fichier.readlines()
 #print(atomes)
 fichier.close()
@@ -38,5 +49,5 @@ data["residue_name"]=data["residue_name"].replace(['T'], 'DT')
 data["residue_name"]=data["residue_name"].replace(['G'], 'DG')
 data["residue_name"]=data["residue_name"].replace(['C'], 'DC')
 
+str(output)
 ppdb.to_pdb(path='DNA.pdb')
-
