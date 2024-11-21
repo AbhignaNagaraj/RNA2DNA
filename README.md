@@ -28,14 +28,13 @@ Prerequisites
 Before using RNA2DNA, ensure the following are installed on your system:
 
 Python
-RNA2DNA is compatible with Python 3.x. Download Python here.
+RNA2DNA is compatible with Python 3.x. Download Python 
 
 BioPandas
 Install the biopandas package, which is required for handling PDB files:
-
-bash
-Copy code
 pip install biopandas
+
+
 Example
 Input:
 An ssRNA structure file named example.pdb.
